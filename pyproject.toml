@@ -1,0 +1,16 @@
+[project]
+name = "amazon-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.4"
+dependencies = [
+    "boto3>=1.41.3",
+    "fastparquet>=2024.11.0",
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "s3fs>=0.4.2",
+    "scrapy>=2.13.3",
+    "scrapy-playwright>=0.0.44",
+]

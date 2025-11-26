@@ -1,0 +1,50 @@
+2025-11-25 17:43:54 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-25 17:43:54 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-25 17:43:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-25 17:43:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-25 17:43:55 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-25 17:43:55 [scrapy.core.engine] INFO: Spider opened
+2025-11-25 17:43:55 [py.warnings] WARNING: C:\Users\heito\Desktop\projects\personal\amazon-project\.venv\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: scraper.spiders.amazon.AmazonSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-25 17:43:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-25 17:43:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-25 17:43:55 [scrapy-playwright] INFO: Starting download handler
+2025-11-25 17:43:55 [scrapy-playwright] INFO: Starting download handler
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-25 17:43:56 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-25 17:43:56 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-25 17:43:56 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-25 17:43:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com.br/robots.txt> (referer: None)
+2025-11-25 17:43:57 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-25 17:43:57 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-25 17:43:57 [scrapy-playwright] DEBUG: Browser disconnected
+2025-11-25 17:43:57 [scrapy-playwright] DEBUG: Browser disconnected
+2025-11-25 17:43:57 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2025-11-25 17:43:57 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2025-11-25 17:43:57 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
